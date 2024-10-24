@@ -13,6 +13,7 @@ const facturaSchema = new mongoose.Schema({
   iva:{type:Number,required:true},
   subtotal:{type:Number,required:true},
   totalFactura: { type: Number, required: true },
+  //TotalDolares:{type:Number,required:true},
 
 });
 

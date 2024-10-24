@@ -22,6 +22,7 @@ const ventasSchema = new mongoose.Schema(
       type: Number,
       required: true,
     },
+    //TotalDolares:{type:Number,required:true},
     estado: {
       type: Boolean,
       required: true,

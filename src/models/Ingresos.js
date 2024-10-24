@@ -32,6 +32,7 @@ const ingresosSchema = new mongoose.Schema(
       type: Number,
       required: true,
     },
+    //TotalDolares:{type:Number,required:true},
   },
   {
     timestamps: true,

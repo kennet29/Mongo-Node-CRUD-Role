@@ -1,5 +1,31 @@
 
-GET https://apimafy.zeabur.app/api/Ingresos/reportes?startDate=2024-01-01&endDate=2024-10-23
+
+
+
+POST https://apimafy.zeabur.app/api/facturaServicio
+
+{
+    "fecha": "2024-10-23",
+    "cliente": "Ken",
+    "servicios": [
+        {
+            "nombre": "Servicio 3",
+            "descripcion": " Descripcion Genericas",
+            "precio": 400,
+            "cantidad": 1,
+            "subtotal": "400.00"
+        },
+        {
+            "nombre": "Servicio 2",
+            "descripcion": " Descripcion Generica",
+            "precio": 200,
+            "cantidad": 1,
+            "subtotal": "200.00"
+        }
+    ],
+    "totalFactura": "600.00"
+}
+
 
 
 GET http://localhost:4000/api/FacturaServicio/reporte?startDate=2024-01-01&endDate=2024-10-22
